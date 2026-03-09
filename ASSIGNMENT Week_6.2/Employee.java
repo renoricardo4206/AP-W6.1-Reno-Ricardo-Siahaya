@@ -1,13 +1,13 @@
 public class Employee {
     String name;
-    double baseSalary;  // double, bukan int
+    double baseSalary; 
     
     public Employee(String name, double baseSalary) {
         this.name = name;
         this.baseSalary = baseSalary;
     }
     
-    public double calculateSalary() {  // return double
+    public double calculateSalary() { 
         return baseSalary;
     }
     
@@ -30,7 +30,7 @@ public class Employee {
         employees[2] = new Programmer("Citra", 450000);
         employees[3] = new Intern("Dina", 200000);
         
-        double totalPayroll = 0;  // double, bukan int
+        double totalPayroll = 0; 
         
         for (Employee emp : employees) {
             emp.printInfo();
