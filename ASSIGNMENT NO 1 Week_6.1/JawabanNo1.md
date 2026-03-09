@@ -1,0 +1,1 @@
+No 1 : Outputnya Meow karena Object Cat override output dari method class Animal sehingga output dari method yang dipanggil akan berubah karena sudah ditimpa.

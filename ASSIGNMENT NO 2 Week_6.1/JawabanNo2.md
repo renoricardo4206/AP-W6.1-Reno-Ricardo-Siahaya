@@ -1,0 +1,1 @@
+No 2 : Class method yang dipanggil yaitu void move() dari class Vehicle. Outputnya yaitu "Vehicle is moving" dan dibaris bawahnya "Car is moving". Kedua line memiliki output yang berbeda sehingga karena Class car override method dari Class vehicle sehingga output dari "Vehicle is moving" ditimpa menjadi "Car is moving".
